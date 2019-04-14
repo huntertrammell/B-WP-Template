@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <title>Bootstrap to WordPress</title>
+    <!--bootstrap core css-->
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <!--fontawesome icons-->
+    <link
+      rel="stylesheet"
+      href="assets/css/font-awesome/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <!--google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--custom CSS-->
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--header-->
+    <header class="site-header" role="banner">
+      <!--navbar-->
+      <div class="navbar-wrapper">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button
+                class="navbar-toggle"
+                type="button"
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+              >
+                <span class="sr-only">toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand"
+                ><img src="assets/img/logo.png" alt="Bootstrap to WordPress"
+              /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Home</a></li>
+                <li class=""><a href="blog.html">Blog</a></li>
+                <li class=""><a href="resources.html">Resources</a></li>
+                <li class=""><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--HERO-->
+    <section id="hero" data-type="background" data-speed="5">
+      <article>
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-sm-5">
+              <img
+                src="assets/img/logo-badge.png"
+                alt="Bootstrap to WordPress"
+                class="logo"
+              />
+            </div>
+            <div class="col-sm-7 hero-text">
+              <h1>Bootstrap to WordPress</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae dolorum voluptates non ea corrupti consequuntur
+                perspiciatis nemo voluptate vel, voluptas fugiat soluta natus,
+                accusantium placeat numquam libero eveniet? Neque, nemo?
+              </p>
+              <div id="price-timeline">
+                <div class="price active">
+                  <h4>Pre-Launch Price <small>Ends soon!</small></h4>
+                  <span>$149</span>
+                </div>
+                <div class="price">
+                  <h4>Launch Price <small>Coming soon!</small></h4>
+                  <span>$299</span>
+                </div>
+                <div class="price">
+                  <h4>Final Price <small>Coming soon!</small></h4>
+                  <span>$399</span>
+                </div>
+              </div>
+              <p>
+                <a href="/" class="btn btn-lg btn-danger" role="button">
+                  Enroll &raquo;
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!--OPT IN SECTION-->
+    <section id="optin">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <p class="lead">
+              <strong>Subscribe to our mailing list.</strong> We'll send
+              something special as a thankyou!
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <button
+              class="btn btn-success btn-lg btn-block"
+              data-toggle="modal"
+              data-target="#myModal"
+            >
+              Click here to subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Boost your income-->
+    <section id="boost-income">
+      <div class="container">
+        <div class="section-header">
+          <img src="assets/img/icon-boost.png" alt="Chart" />
+          <h2>How you can boost your income</h2>
+        </div>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          quaerat odio quam suscipit facilis, voluptatum nam aliquid doloremque
+          eum adipisci fuga nulla error voluptatibus nisi, magnam enim beatae,
+          ducimus iure!Ipsam fugit modi officia debitis maxime voluptates soluta
+          quaerat, porro unde libero officiis alias tenetur aliquam minima a
+          perspiciatis magni obcaecati minus. Sapiente, maiores fugit! Odio
+          minima libero dolorem vel.
+        </p>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Make money on the side</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptates pariatur dolorum facere incidunt maxime eius? Velit
+              eveniet consequuntur esse optio hic saepe quis, quam facere
+              perferendis, nam corporis aut! Consequatur!
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h3>Create a fulltime income</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              neque iure deleniti excepturi! Neque, delectus quibusdam adipisci
+              nam, recusandae eaque facere dicta, velit laboriosam repudiandae
+              inventore. Eligendi nostrum iure quaerat!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--who benefits-->
+    <section id="who-benefits">
+      <div class="container">
+        <div class="section-header">
+          <img src="assets/img/icon-pad.png" alt="Pad and Pencil" />
+          <h2>Who should take this course</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h3>Graphics &amp; Web Designers</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <h3>Employees</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <h3>Entrepenuers</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <h3>Code Hobbyists</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <h3>People Looking for a New Career</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              pariatur, quidem odit repellat debitis atque quibusdam laborum
+              explicabo ipsum architecto earum similique nemo fugiat
+              reprehenderit voluptatibus maxime quis eos fuga.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--course features-->
+    <section id="course-features">
+      <div class="container">
+        <div class="section-header">
+          <img src="assets/img/icon-rocket.png" alt="Rocket" />
+          <h2>Course Features</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <i class="ci ci-computer"></i>
+            <h4>Lifetime access to 80+ lectures</h4>
+          </div>
+          <div class="col-sm-2">
+            <i class="ci ci-watch"></i>
+            <h4>10+ hourse of HD video content</h4>
+          </div>
+          <div class="col-sm-2">
+            <i class="ci ci-calendar"></i>
+            <h4>30-day money back guarntee</h4>
+          </div>
+          <div class="col-sm-2">
+            <i class="ci ci-community"></i>
+            <h4>Access to a community of like minded students</h4>
+          </div>
+          <div class="col-sm-2">
+            <i class="ci ci-instructor"></i>
+            <h4>Direct access to the instructor</h4>
+          </div>
+          <div class="col-sm-2">
+            <i class="ci ci-device"></i>
+            <h4>Accessable content on your mobile devices</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--project features-->
+    <section id="project-features">
+      <div class="container">
+        <h2>Final Project features</h2>
+        <p class="lead">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+          perspiciatis nihil accusamus. Illo incidunt exercitationem eius omnis,
+          dolorem iure odit facere, fuga laboriosam vero labore totam, ullam
+          quis veniam autem.
+        </p>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/img/icon-design.png" alt="Design" />
+            <h3>Sexy &amp; Modern Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/img/icon-code.png" alt="Code" />
+            <h3>Quality HTML5 &amp; CSS3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/img/icon-cms.png" alt="Design" />
+            <h3>Easy to use CMS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--video featurette-->
+    <section id="featurette">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2>Watch the Course Introduction</h2>
+            <iframe
+              width="100%"
+              height="415"
+              src="https://www.youtube.com/embed/q-mJJsnOHew"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--instructor-->
+    <section id="instructor">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-6">
+            <div class="row">
+              <div class="col-lg-8">
+                <h2>Your Instructor <small>Brad Hussey</small></h2>
+              </div>
+              <div class="col-lg-4">
+                <a href="#" target="_blank" class="badge social twitter">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" target="_blank" class="badge social facebook">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank" class="badge social gplus">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </div>
+            </div>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum,
+              quaerat explicabo maiores reprehenderit unde numquam ipsam
+              blanditiis ipsa sed corporis quia doloribus quisquam, animi
+              dolorum, aperiam libero. Veniam, minima debitis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Obcaecati quam magnam assumenda dignissimos sed amet illum
+              voluptatem ullam suscipit, nisi incidunt explicabo at quasi dicta?
+              Minus, odit? Placeat, est nisi.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Obcaecati quam magnam assumenda dignissimos sed amet illum
+              voluptatem ullam suscipit, nisi incidunt explicabo at quasi dicta?
+              Minus, odit? Placeat, est nisi.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Obcaecati quam magnam assumenda dignissimos sed amet illum
+              voluptatem ullam suscipit, nisi incidunt explicabo at quasi dicta?
+              Minus, odit? Placeat, est nisi.
+            </p>
+            <hr />
+            <h3>The numbers <small>They done lie!</small></h3>
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="num">
+                  <div class="num-content">41,000+ <span>students</span></div>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="num">
+                  <div class="num-content">568 <span>reviews</span></div>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="num">
+                  <div class="num-content">8 <span>courses</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--testamonials-->
+    <section id="kudos">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2>What people are saying about brad</h2>
+            <div class="row testimonial">
+              <div class="col-sm-4">
+                <img src="assets/img/brennan.jpg" alt="Brennan" />
+              </div>
+              <div class="col-sm-8">
+                <blockquote>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, tempora, asperiores debitis ipsa unde voluptatibus
+                  libero sint dolores voluptatem culpa deserunt nisi nam, quas
+                  illum magni laborum rem iste expedita.
+                  <cite
+                    >&mdash; Brennan, graduate of all of Brad's courses</cite
+                  >
+                </blockquote>
+              </div>
+            </div>
+            <div class="row testimonial">
+              <div class="col-sm-4">
+                <img src="assets/img/ben.png" alt="Ben" />
+              </div>
+              <div class="col-sm-8">
+                <blockquote>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, tempora, asperiores debitis ipsa unde voluptatibus
+                  libero sint dolores voluptatem culpa deserunt nisi nam, quas
+                  illum magni laborum rem iste expedita.
+                  <cite>&mdash; Ben, graduate css course</cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="row testimonial">
+              <div class="col-sm-4">
+                <img src="assets/img/aj.png" alt="AJ" />
+              </div>
+              <div class="col-sm-8">
+                <blockquote>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, tempora, asperiores debitis ipsa unde voluptatibus
+                  libero sint dolores voluptatem culpa deserunt nisi nam, quas
+                  illum magni laborum rem iste expedita.
+                  <cite>&mdash; AJ, graduate bootstrap course</cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="row testimonial">
+              <div class="col-sm-4">
+                <img src="assets/img/ernest.png" alt="Earnest" />
+              </div>
+              <div class="col-sm-8">
+                <blockquote>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, tempora, asperiores debitis ipsa unde voluptatibus
+                  libero sint dolores voluptatem culpa deserunt nisi nam, quas
+                  illum magni laborum rem iste expedita.
+                  <cite>&mdash; Earnest, graduate PHP course</cite>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--sign up-->
+    <section id="signup" data-type="background" data-speed="4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2>
+              Are you ready to take your coding skills to the
+              <strong>next level</strong>?
+            </h2>
+            <p>
+              <a
+                href="#"
+                class="btn btn-lg btn-block btn-success"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Yes, sign me up!
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div class="col-sm-3">
+          <p>
+            <a href="/"
+              ><img src="assets/img/logo.png" alt="Bootstrap to WordPress"
+            /></a>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <nav>
+            <ul class="list-unstyled list-inline">
+              <li><a href="/">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="signup-link"><a href="#">Sign Up Now</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-3">
+          <p class="pull-right">&copy; Hunter Trammell 2019</p>
+        </div>
+      </div>
+    </footer>
+    <!--modal-->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span
+              ><span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">
+              <i class="fa fa-envelope"> Subscribe to our mailing list</i>
+            </h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              alias nostrum tempora quis ratione. Fugiat provident, mollitia
+              quas in corporis vel architecto sit neque. Aliquam nesciunt odit
+              eveniet cumque consequuntur.
+            </p>
+            <form action="" class="form-inline" role="form">
+              <div class="form-group">
+                <label for="subscribe-name" class="sr-only">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subscribe-name"
+                  placeholder="Your First Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subscribe-email" class="sr-only">Your Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subscribe-email"
+                  placeholder="and your Email"
+                />
+              </div>
+              <input
+                type="text"
+                class="btn btn-danger"
+                type="submit"
+                value="Subscribe!"
+              />
+            </form>
+            <hr />
+            <p>
+              <small>
+                By providing your email you consent to receiving occasional
+                promotional emails &amp; newsletters. <br />No spam. Just good
+                stuff. We respect your privacy &amp; you may unsubscribe at any
+                time.
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--bootstrap core JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/jquery-2.1.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

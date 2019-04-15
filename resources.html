@@ -34,8 +34,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <body>
+  <body class="full-width resources">
     <!--header-->
     <header class="site-header" role="banner">
       <!--navbar-->
@@ -61,8 +60,8 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class=""><a href="/">Home</a></li>
-                <li class="active"><a href="blog.html">Blog</a></li>
-                <li class=""><a href="resources.html">Resources</a></li>
+                <li class=""><a href="blog.html">Blog</a></li>
+                <li class="active"><a href="resources.html">Resources</a></li>
                 <li class=""><a href="contact.html">Contact</a></li>
               </ul>
             </div>
@@ -70,167 +69,91 @@
         </div>
       </div>
     </header>
-    <!--feature image-->
     <section
-      class="feature-image feature-image-default-alt"
+      class="feature-image feature-image-default"
       data-type="background"
       data-speed="2"
     >
       <h1 class="page-title">Blog</h1>
     </section>
-    <!--blog content-->
+    <!--main content-->
     <div class="container">
       <div class="row" id="primary">
-        <main id="content" class="col-sm-8" role="main">
-          <article class="post">
-            <header>
-              <h3><a href="post.html">Blog title here</a></h3>
-              <div class="post-details">
-                <i class="fa fa-user"></i> Hunter Trammell
-                <i class="fa fa-clock-o"></i>
-                <time>April 14, 2019</time>
-                <i class="fa fa-folder"></i>
-                <a href="">Tutorials</a>, <a href="">Coding</a>
-                <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>,
-                <a href="">premium</a>, <a href="">another tag</a>,
-                <a href="">yadayada</a>
-                <div class="post-comments-badge">
-                  <a href=""><i class="fa fa-comments"> 168</i></a>
-                </div>
-              </div>
-            </header>
-            <div class="post-image">
-              <img src="assets/img/hero-bg.jpg" alt="Hero Image" />
-            </div>
-            <div class="post-excerpt">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                perspiciatis praesentium fugit repellat cumque ullam dolorum
-                harum distinctio, dolorem porro rerum doloribus quasi esse
-                mollitia accusantium nam sint sed recusandae...
-                <a href="post.html">continue reading &raquo;</a>
-              </p>
-            </div>
-          </article>
-          <article class="post">
-            <header>
-              <h3><a href="post.html">Blog title here</a></h3>
-              <div class="post-details">
-                <i class="fa fa-user"></i> Hunter Trammell
-                <i class="fa fa-clock-o"></i>
-                <time>April 14, 2019</time>
-                <i class="fa fa-folder"></i>
-                <a href="">Tutorials</a>, <a href="">Coding</a>
-                <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>,
-                <a href="">premium</a>, <a href="">another tag</a>,
-                <a href="">yadayada</a>
-                <div class="post-comments-badge">
-                  <a href=""><i class="fa fa-comments"> 168</i></a>
-                </div>
-              </div>
-            </header>
-            <div class="post-image">
-              <img src="assets/img/hero-bg.jpg" alt="Hero Image" />
-            </div>
-            <div class="post-excerpt">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                perspiciatis praesentium fugit repellat cumque ullam dolorum
-                harum distinctio, dolorem porro rerum doloribus quasi esse
-                mollitia accusantium nam sint sed recusandae...
-                <a href="post.html">continue reading &raquo;</a>
-              </p>
-            </div>
-          </article>
-          <article class="post">
-            <header>
-              <h3><a href="post.html">Blog title here</a></h3>
-              <div class="post-details">
-                <i class="fa fa-user"></i> Hunter Trammell
-                <i class="fa fa-clock-o"></i>
-                <time>April 14, 2019</time>
-                <i class="fa fa-folder"></i>
-                <a href="">Tutorials</a>, <a href="">Coding</a>
-                <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>,
-                <a href="">premium</a>, <a href="">another tag</a>,
-                <a href="">yadayada</a>
-                <div class="post-comments-badge">
-                  <a href=""><i class="fa fa-comments"> 168</i></a>
-                </div>
-              </div>
-            </header>
-            <div class="post-image">
-              <img src="assets/img/hero-bg.jpg" alt="Hero Image" />
-            </div>
-            <div class="post-excerpt">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                perspiciatis praesentium fugit repellat cumque ullam dolorum
-                harum distinctio, dolorem porro rerum doloribus quasi esse
-                mollitia accusantium nam sint sed recusandae...
-                <a href="post.html">continue reading &raquo;</a>
-              </p>
-            </div>
-          </article>
-        </main>
-        <!--sidebar-->
-        <aside class="col-sm-4">
-          <div class="widget">
-            <h4>Join our mailing list</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <div id="content" class="col-sm-12">
+          <section class="main-content">
+            <p class="lead">
+              Welcome to the Bootstrap to WordPress resources page! Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Inventore non
+              accusamus ratione culpa quae? Commodi aliquid beatae consequuntur,
+              ad excepturi molestias est, veritatis repellat tenetur architecto
+              a necessitatibus repudiandae dolore?
             </p>
-            <button
-              class="btn btn-success btn-lg btn-block"
-              data-target="#myModal"
-              data-toggle="modal"
-            >
-              Click here to subscribe
-            </button>
-          </div>
-          <div class="widget">
-            <form action="" role="form" class="search-form">
-              <label for="sidebar-search" class="sr-only"
-                >Search the blog</label
-              >
-              <input
-                type="text"
-                placeholder="Search the blog..."
-                id="sidebar-search"
-              />
-            </form>
-          </div>
-          <div class="widget">
-            <h4>About Bootstrap to WordPress</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis illo sint consectetur quis qui atque aspernatur
-              dolorem, et soluta incidunt doloribus cupiditate est rerum
-              perferendis asperiores officiis impedit recusandae nulla!
+              <em>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                obcaecati est eligendi quasi commodi optio veniam quaerat
+                eveniet architecto quas? Optio exercitationem ad laborum, nemo
+                velit numquam facilis fuga modi?
+              </em>
             </p>
-          </div>
-          <div class="widget">
-            <h4>Recent Posts</h4>
-            <ul>
-              <li><a href="">Blog post #1</a></li>
-              <li><a href="">Blog post #2</a></li>
-              <li><a href="">Blog post #3</a></li>
-              <li><a href="">Blog post #4</a></li>
-              <li><a href="">Blog post #5</a></li>
-            </ul>
-          </div>
-          <div class="widget">
-            <h4>Categories</h4>
-            <ul>
-              <li><a href="">Category #1</a></li>
-              <li><a href="">Category #2</a></li>
-              <li><a href="">Category #3</a></li>
-              <li><a href="">Category #4</a></li>
-              <li><a href="">Category #5</a></li>
-              <li><a href="">Category #6</a></li>
-            </ul>
-          </div>
-        </aside>
+            <hr />
+            <div class="resource-row clearfix">
+              <div class="resource">
+                <img src="assets/img/justhost-logo.jpg" alt="Just Host" />
+                <h3><a href="#">Justhost</a></h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Alias vitae nobis, nulla ea a dignissimos facere quisquam
+                  debitis hic iste provident dolor ut ullam. Quibusdam
+                  reiciendis quo laudantium distinctio enim!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  eos molestias. In aperiam provident incidunt recusandae odio
+                  officia non necessitatibus cum quis quidem omnis harum magni
+                  repellat iure, suscipit molestiae.
+                </p>
+                <a href="#" class="btn btn-success"
+                  >Get Started with Justhost</a
+                >
+              </div>
+              <div class="resource">
+                <img src="assets/img/dropbox-logo.jpg" alt="Just Host" />
+                <h3><a href="#">Dropbox</a></h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Alias vitae nobis, nulla ea a dignissimos facere quisquam
+                  debitis hic iste provident dolor ut ullam. Quibusdam
+                  reiciendis quo laudantium distinctio enim!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  eos molestias. In aperiam provident incidunt recusandae odio
+                  officia non necessitatibus cum quis quidem omnis harum magni
+                  repellat iure, suscipit molestiae.
+                </p>
+                <a href="#" class="btn btn-success">Get Started with Dropbox</a>
+              </div>
+              <div class="resource">
+                <img src="assets/img/coda2-logo.jpg" alt="Just Host" />
+                <h3><a href="#">Coda 2</a></h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Alias vitae nobis, nulla ea a dignissimos facere quisquam
+                  debitis hic iste provident dolor ut ullam. Quibusdam
+                  reiciendis quo laudantium distinctio enim!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  eos molestias. In aperiam provident incidunt recusandae odio
+                  officia non necessitatibus cum quis quidem omnis harum magni
+                  repellat iure, suscipit molestiae.
+                </p>
+                <a href="#" class="btn btn-success">Get Started with Coda 2</a>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
     <!--sign up-->
